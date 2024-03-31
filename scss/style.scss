@@ -1,0 +1,35 @@
+.hero 
+{
+    background: url(../img/banner-bg.png);
+    height: 100vh;
+}
+.thumb
+{
+    width: 120px;
+    margin: auto;
+}
+.client 
+{
+    background: #07CC91;
+}
+.box 
+{
+    transition: 0.9s;
+    &:hover 
+    {
+        transform: translateY(-15px);
+    }
+}
+.arrow 
+{
+    width: 40px;
+    height: 40px;
+    background: blue;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+html 
+{
+    scroll-behavior: smooth;
+}
